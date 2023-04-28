@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "portfolio_overviews",
+  "info": {
+    "singularName": "portfolio-overview",
+    "pluralName": "portfolio-overviews",
+    "displayName": "portfolio_overview",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "front_title": {
+      "type": "string",
+      "required": true
+    },
+    "projects_overview": {
+      "type": "text",
+      "required": true
+    },
+    "about_overview": {
+      "type": "text",
+      "required": true
+    },
+    "stacks": {
+      "type": "json",
+      "required": true
+    },
+    "services": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
